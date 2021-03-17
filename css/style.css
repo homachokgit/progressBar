@@ -1,0 +1,73 @@
+@font-face{
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    font-family: 'openSansBold';
+}
+@font-face{
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-family: 'openSans';
+}
+#background{
+    background-color: rgb(73, 68, 68);
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    padding: 50px 25px;
+    
+}
+#progress{
+    border: 2px black solid;
+    width: 100%;
+    min-height: 30px;
+    height: 5vh;
+    border-radius: 2.5vh;
+}
+#progressBarMean{
+    height: 100%;
+    width: 0%;
+    background-color: purple;
+    border-radius: 2.5vh;
+}
+#progressMeanPar{
+    position: absolute;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 5vh;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#progressMean{
+    color: white;
+
+    height: 30px;
+    margin-top: 50%;
+}
+#btnContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#btnContainer button{
+    font-family: "openSans";
+    background-color: black;
+    color: white;
+    height: 5vw;    
+    width: 5vw;
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnContainer button:hover{
+    background-color: orange;
+}
+#note p{
+    width: 300px;
+    color: white;
+    font-family: "openSans";
+    text-align: center;
+}
